@@ -1,3 +1,12 @@
+To run download zip:
+
+Then go to root project directory.
+Run command npm install
+Run command npm start
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
