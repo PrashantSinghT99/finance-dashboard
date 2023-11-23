@@ -16,7 +16,7 @@ import search from ".././Assests/icons/search.svg";
 import user from ".././Assests/icons/user.svg";
 import wallet from ".././Assests/icons/wallet.svg";
 import wealth from ".././Assests/icons/wealth.svg";
-
+import Logout from ".././Assests/icons/Logout.png";
 // person images
 import person_one from ".././Assests/images/person_one.jpg";
 import person_two from ".././Assests/images/person_two.png";
@@ -41,6 +41,7 @@ export const iconsImgs = {
   user,
   wallet,
   wealth,
+  Logout
 };
 
 export const personsImgs = {

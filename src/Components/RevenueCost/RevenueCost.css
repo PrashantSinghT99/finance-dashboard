@@ -4,8 +4,20 @@
   background-color: var(--clr-pumpkin);
   border-radius: 100vh;
 } */
-.graph
-{
-display:flex;
-flex:1;
+
+
+.graph {
+  width: 78vw;
+  height:80vh;
+  background: #473b33
 }
+
+/* Media query for screens where sidebar covers 260px */
+/* @media (max-width: 520px) {
+  .graph {
+    width: 60vw; 
+    #FAF3DD 
+    
+  }
+} */
+/* Adjust as needed for your layout */

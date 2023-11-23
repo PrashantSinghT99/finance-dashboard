@@ -1,0 +1,48 @@
+/* TopAssets.css */
+
+.top-assets {
+  margin: 20px;
+  background:#473b33;
+  color: white;
+  font-size:500
+}
+
+.currency-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.currency-table th,
+.currency-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.currency-table th {
+color:white;
+}
+
+.currency-table tbody tr:hover {
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  background-color:#8991ea;
+}
+
+.positive {
+  color: #2af252; /* Green for positive changes */
+}
+
+.negative {
+  color: #f62c2c; /* Red for negative changes */
+}
+@media only screen and (max-width: 350px) {
+  .top-assets {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .currency-table th,
+  .currency-table td {
+    padding: 2px;
+  }
+}

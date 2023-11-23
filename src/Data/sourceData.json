@@ -1,14 +1,12 @@
 [
-  {
-    "label": "Ads",
-    "value": 32
-  },
-  {
-    "label": "Subscriptions",
-    "value": 45
-  },
-  {
-    "label": "Sponsorships",
-    "value": 23
-  }
+  { "label": "Item 1", "value": 18 },
+  { "label": "Item 2", "value": 75 },
+  { "label": "Item 3", "value": 42 },
+  { "label": "Item 4", "value": 64 },
+  { "label": "Item 5", "value": 21 },
+  { "label": "Item 6", "value": 53 },
+  { "label": "Item 7", "value": 35 },
+  { "label": "Item 8", "value": 47 },
+  { "label": "Item 9", "value": 29 },
+  { "label": "Item 10", "value": 56 }
 ]

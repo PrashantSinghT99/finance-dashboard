@@ -7,6 +7,9 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import RevenueCost from "./Components/RevenueCost/RevenueCost";
 import Content from "./Components/Content/Content";
 import store from "./Utils/store";
+import SpendingAnalytics from "./Components/SpendingAnalytics/SpendingAnalytics";
+import Billings from "./Components/Billings/Billings";
+import TopAssets from "./Components/TopAssets/TopAssets";
 function App() {
   const AppLayout = () => (
     <>
@@ -31,10 +34,25 @@ function App() {
           element: <Content />,
           errorElement: <Error />,
         },
+        {
+          path: "/Spending Analytics",
+          element: <SpendingAnalytics />,
+          errorElement: <Error />,
+        },
+        {
+          path: "/Billings",
+          element: <Billings />,
+          errorElement: <Error />,
+        },
+        {
+          path: "/Top Assets",
+          element: <TopAssets/>,
+          errorElement: <Error />,
+        },
       ],
     },
   ]);
-
+  
   return (
     <div className="app">
       <Provider store={store}>

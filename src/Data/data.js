@@ -3,14 +3,15 @@ import { personsImgs } from ".././Data/images";
 
 export const navigationLinks = [
   { id: 1, title: "Home", image: iconsImgs.home },
-  { id: 2, title: "Budget", image: iconsImgs.budget },
-  { id: 3, title: "Transactions", image: iconsImgs.plane },
-  { id: 4, title: "Subscriptions", image: iconsImgs.wallet },
-  { id: 5, title: "Loans", image: iconsImgs.bills },
-  { id: 7, title: "Savings", image: iconsImgs.wallet },
+  { id: 2, title: "Billings", image: iconsImgs.budget },
+  { id: 3, title: "Top Assets", image: iconsImgs.plane },
+  { id: 7, title: "Spending Analytics", image: iconsImgs.wallet },
   { id: 8, title: "Revenue Cost", image: iconsImgs.wealth },
-  { id: 9, title: "Account", image: iconsImgs.user },
-  { id: 10, title: "Settings", image: iconsImgs.gears },
+  { id: 9, title: "Log Out", image: iconsImgs.Logout },
+  // { id: 10, title: "Settings", image: iconsImgs.gears },
+  // { id: 4, title: "Subscriptions", image: iconsImgs.wallet },
+  
+  //{ id: 5, title: "Loans", image: iconsImgs.bills },
 ];
 //    { id: 6, title: 'Reports', image: iconsImgs.report },
 export const transactions = [
@@ -129,7 +130,7 @@ export const savings = [
     id: 27,
     image: personsImgs.person_one,
     saving_amount: 250000,
-    title: "Pay kid bro’s fees",
+    title: "Pay bro’s fees",
     date_taken: "23/12/22",
     amount_left: 40000,
   },

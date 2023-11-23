@@ -1,10 +1,31 @@
 // import { iconsImgs } from "../../Data/images"
 import React from "react";
 import { Chart as ChartJS, defaults } from "chart.js/auto";
-import { Bar, Doughnut, Line } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
+import "./RevenueCost.css";
+import {
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
 import revenueData from "../../Data/revenueData.json";
 import sourceData from "../../Data/sourceData.json";
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
+
 const RevenueCost = () => {
+  
   return (
     <div className="graph grid-common">
       <Line
@@ -26,6 +47,7 @@ const RevenueCost = () => {
           ],
         }}
         options={{
+          responsive: true,
           elements: {
             line: {
               tension: 0.5,
@@ -35,7 +57,29 @@ const RevenueCost = () => {
             title: {
               text: "Monthly Revenue & Cost",
             },
+            legend: {
+              labels: {
+                  color: "white",
+                  fontSize: 18
+              }
           },
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: {
+                color: 'white', 
+              },
+            },
+            x:{
+                beginAtZero: true,
+              ticks: {
+                color: 'white', 
+              },
+            }
+          },
+      
+        
         }}
       />
     </div>

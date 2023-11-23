@@ -36,7 +36,7 @@ const Sidebar = () => {
             {
               navigationLinks.map((navigationLink) => (
                 <li className="nav-item" key = { navigationLink.id } onClick={()=>setActiveIndex(navigationLink.id)}>
-                  <Link to={navigationLink.id === activeLinkIdx ? "" : navigationLink.title==="Home"?"":navigationLink.title} className={ `nav-link ${ navigationLink.id === activeLinkIdx ? 'active' : null }` }>
+                  <Link to={navigationLink.id === activeLinkIdx ? "" : navigationLink.title==="Home" || navigationLink.title==="Log Out" ? "":navigationLink.title} className={ `nav-link ${ navigationLink.id === activeLinkIdx ? 'active' : null }` }>
                       <img src={ navigationLink.image } className="nav-link-icon" alt = { navigationLink.title } />
                       <span className="nav-link-text">{ navigationLink.title }</span>
                   </Link>
