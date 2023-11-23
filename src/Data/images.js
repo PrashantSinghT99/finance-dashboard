@@ -41,7 +41,7 @@ export const iconsImgs = {
   user,
   wallet,
   wealth,
-  Logout
+  Logout,
 };
 
 export const personsImgs = {

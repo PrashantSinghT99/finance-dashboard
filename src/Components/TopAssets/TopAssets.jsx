@@ -22,7 +22,7 @@ const TopAssets = () => {
 
   return (
     <div className="top-assets">
-    <h1 style={{textAlign:"center"}}>Assets</h1>
+    <h2 className="heading" style={{textAlign:"center",padding:"10px"}}>Crypto Assets Market</h2>
       <table className="currency-table">
         <thead>
           <tr>

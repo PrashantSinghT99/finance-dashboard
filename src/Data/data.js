@@ -14,27 +14,30 @@ export const navigationLinks = [
   //{ id: 5, title: "Loans", image: iconsImgs.bills },
 ];
 //    { id: 6, title: 'Reports', image: iconsImgs.report },
+
+//TRANSACTION DATA
+
 export const transactions = [
   {
-    id: 11,
-    name: "Sarah Parker",
+    id: 21,
+    name: "Krisitine Smith",
     image: personsImgs.person_four,
-    date: "23/12/04",
-    amount: 22000,
+    date: "23/11/15",
+    amount: 18000,
   },
   {
-    id: 12,
-    name: "Krisitine Carter",
+    id: 22,
+    name: "Sarah Johnson",
     image: personsImgs.person_three,
-    date: "23/07/21",
-    amount: 20000,
+    date: "23/05/30",
+    amount: 25000,
   },
   {
-    id: 13,
-    name: "Irene Doe",
+    id: 23,
+    name: "Eva White",
     image: personsImgs.person_two,
-    date: "23/08/25",
-    amount: 30000,
+    date: "23/09/10",
+    amount: 27000,
   },
 ];
 
@@ -71,57 +74,59 @@ export const reportData = [
   },
 ];
 
+//BUDGET DATA
+
 export const budget = [
   {
     id: 19,
-    title: "Subscriptions",
-    type: "Automated",
-    amount: 22000,
+    title: "Entertainment",
+    type: "One-time",
+    amount: 18000,
   },
   {
     id: 20,
-    title: "Loan Payment",
+    title: "Utilities",
     type: "Automated",
-    amount: 16000,
+    amount: 25000,
   },
   {
     id: 21,
-    title: "Foodstuff",
+    title: "Groceries",
     type: "Automated",
-    amount: 20000,
+    amount: 27000,
   },
   {
     id: 22,
-    title: "Subscriptions",
+    title: "Rent",
     type: null,
-    amount: 10000,
+    amount: 12000,
   },
   {
     id: 23,
-    title: "Subscriptions",
+    title: "Transportation",
     type: null,
-    amount: 40000,
+    amount: 15000,
   },
 ];
 
 export const subscriptions = [
   {
-    id: 24,
-    title: "LinkedIn",
-    due_date: "23/12/04",
-    amount: 20000,
-  },
-  {
-    id: 25,
+    id: 34,
     title: "Netflix",
-    due_date: "23/12/10",
-    amount: 5000,
+    due_date: "23/11/15",
+    amount: 12000,
   },
   {
-    id: 26,
-    title: "DSTV",
-    due_date: "23/12/22",
-    amount: 2000,
+    id: 35,
+    title: "Hulu",
+    due_date: "23/11/30",
+    amount: 8000,
+  },
+  {
+    id: 36,
+    title: "Spotify",
+    due_date: "23/12/10",
+    amount: 1000,
   },
 ];
 
@@ -129,9 +134,9 @@ export const savings = [
   {
     id: 27,
     image: personsImgs.person_one,
-    saving_amount: 250000,
-    title: "Pay bro’s fees",
-    date_taken: "23/12/22",
-    amount_left: 40000,
+    saving_amount: 180000,
+    title: "Emergency Fund",
+    date_taken: "23/11/15",
+    amount_left: 60000,
   },
 ];
