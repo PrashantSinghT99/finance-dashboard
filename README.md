@@ -5,6 +5,24 @@ Run command npm install
 Run command npm start
 
 
+## Tech Stack
+
+| Technology               | Version |
+| ------------------------ | ------- |
+| React                    | 18.2.0  |
+| React DOM                | 18.2.0  |
+| React Router DOM         | 6.19.0  |
+| Redux Toolkit            | 1.9.7   |
+| React Redux              | 8.1.3   |
+| Axios                    | 1.6.2   |
+| Chart.js                 | 4.4.0   |
+| React ChartJS 2          | 5.2.0   |
+| React Paginate           | 8.2.0   |
+
+Future Enhancements
+
+1)User authentication
+2)preditability of finance from a third party API
 
 
 # Getting Started with Create React App
