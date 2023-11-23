@@ -1,8 +1,10 @@
 To run download zip:
 
-Then go to root project directory.
-Run command npm install
-Run command npm start
+1)Then go to root project directory.
+
+2)Run command npm install.
+
+3)Run command npm start.
 
 
 ## Tech Stack
