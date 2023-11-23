@@ -12,15 +12,29 @@ const SpendingAnalytics = () => {
         {
           label: "Count",
           data: sourceData.map((data) => data.value),
-          backgroundColor: [
-            "rgba(43, 63, 229, 0.8)",
-            "rgba(250, 192, 19, 0.8)",
-            "rgba(253, 135, 135, 0.8)",
+          backgroundColor:[
+            "#4CAF50",
+            "#FF5722",
+            "#2196F3",
+            "#FFC107",
+            "#9C27B0",
+            "#795548",
+            "#FF4081",
+            "#00BCD4",
+            "#8BC34A",
+            "#FF9800"
           ],
-          borderColor: [
-            "rgba(43, 63, 229, 0.8)",
-            "rgba(250, 192, 19, 0.8)",
-            "rgba(253, 135, 135, 0.8)",
+          borderColor:[
+            "#4CAF50",
+            "#FF5722",
+            "#2196F3",
+            "#FFC107",
+            "#9C27B0",
+            "#795548",
+            "#FF4081",
+            "#00BCD4",
+            "#8BC34A",
+            "#FF9800"
           ],
         },
       ],
